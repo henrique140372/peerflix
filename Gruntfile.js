@@ -71,7 +71,7 @@ module.exports = function (grunt) {
       },
       livereload: {
         options: {
-          open: 'http://localhost:10000',
+          open: 'https://peerflix-g8zu.onrender.com:10000',
           base: [
             '.tmp',
             '<%= yeoman.app %>'
