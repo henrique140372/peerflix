@@ -64,14 +64,14 @@ module.exports = function (grunt) {
     // The actual grunt server settings
     connect: {
       options: {
-        port: 10000,
+        port: 9000,
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: '*',
         livereload: 35729
       },
       livereload: {
         options: {
-          open: 'https://peerflix-g8zu.onrender.com:10000',
+          open: 'http://localhost:9000',
           base: [
             '.tmp',
             '<%= yeoman.app %>'
